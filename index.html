@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirapa Srilert (Wawa) | Logistics & AI Specialist</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --soft-pink: #FFDEE9;
+            --soft-blue: #B5FFFC;
+            --deep-blue: #2193b0;
+            --vibrant-pink: #ffafbd;
+            --white: #ffffff;
+            --glass: rgba(255, 255, 255, 0.75);
+            --text-color: #2c3e50;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Sarabun', sans-serif;
+            background: linear-gradient(135deg, var(--soft-pink) 0%, var(--soft-blue) 100%);
+            background-attachment: fixed;
+            color: var(--text-color);
+        }
+
+        header {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .profile-pic {
+            width: 280px;
+            height: auto;
+            border-radius: 30px;
+            box-shadow: 0 0 25px rgba(255, 175, 189, 0.6), 0 0 50px rgba(181, 255, 252, 0.4);
+            border: 6px solid var(--white);
+            margin-bottom: 25px;
+            transition: transform 0.5s ease;
+        }
+
+        .profile-pic:hover {
+            transform: scale(1.05) rotate(2deg);
+        }
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3rem;
+            color: var(--deep-blue);
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            background: var(--vibrant-pink);
+            color: white;
+            padding: 10px 30px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin-bottom: 25px;
+            box-shadow: 0 5px 15px rgba(255, 175, 189, 0.4);
+        }
+
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px 60px; }
+        
+        section {
+            background: var(--glass);
+            backdrop-filter: blur(15px);
+            border-radius: 30px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+            border: 1px solid rgba(255,255,255,0.4);
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: var(--deep-blue);
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        h2 i { color: var(--vibrant-pink); }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 25px;
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+
+        .card:hover { transform: translateY(-5px); }
+        .card i { font-size: 2rem; color: var(--vibrant-pink); margin-bottom: 15px; }
+        .card h3 { color: var(--deep-blue); margin-bottom: 12px; font-size: 1.2rem; }
+        
+        ul { list-style: none; }
+        li { margin-bottom: 8px; display: flex; align-items: start; gap: 8px; font-size: 0.95rem; }
+        li::before { content: '🌸'; }
+
+        .exp-box {
+            border-left: 4px solid var(--vibrant-pink);
+            padding-left: 15px;
+            margin-bottom: 20px;
+        }
+
+        .contact-grid {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .contact-btn {
+            text-decoration: none;
+            color: white;
+            background: var(--deep-blue);
+            padding: 12px 25px;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .contact-btn:hover { background: var(--vibrant-pink); transform: scale(1.05); }
+
+        footer { text-align: center; padding: 40px; color: var(--deep-blue); font-weight: 700; font-size: 0.9rem; }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2.2rem; }
+            .profile-pic { width: 220px; }
+            section { padding: 25px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://i.ibb.co/X3p6Mh9/image.png" alt="นิรภา ศรีเลิศ (วาวา)" class="profile-pic">
+    <h1>นิรภา ศรีเลิศ (วาวา)</h1>
+    <div class="tagline">Logistics Student & AI Enthusiast</div>
+    <p style="max-width: 650px; font-weight: 500;">นักศึกษา PIM ชั้นปีที่ 3 ผู้มุ่งมั่นพัฒนาตัวเองสู่สายงาน Logistics & Supply Chain ยุคใหม่ ที่ผสานการใช้ AI และนวัตกรรมเพื่อประสิทธิภาพสูงสุด</p>
+</header>
+
+<div class="container">
+    
+    <section>
+        <h2><i class="fas fa-magic"></i> Personal Profile</h2>
+        <p>สวัสดีค่ะ ฉันชื่อ <strong>“วาวา”</strong> เป็นคนที่ชอบเรียนรู้สิ่งใหม่ ๆ โดยเฉพาะเทคโนโลยี AI และการวิเคราะห์ข้อมูลอย่างเป็นระบบ สนใจการพัฒนากระบวนการทำงานให้ดียิ่งขึ้นผ่านเครื่องมือดิจิทัลและการทำงานร่วมกับทีมอย่างสร้างสรรค์</p>
+    </section>
+
+    <section>
+        <h2><i class="fas fa-star"></i> Core Skills</h2>
+        <div class="grid">
+            <div class="card">
+                <i class="fas fa-truck"></i>
+                <h3>Logistics Expert</h3>
+                <ul>
+                    <li>จัดการระบบขนส่ง (5 Modes)</li>
+                    <li>คำนวณต้นทุนโลจิสติกส์</li>
+                    <li>Warehouse & Inventory</li>
+                    <li>วิเคราะห์ข้อมูล Supply Chain</li>
+                </ul>
+            </div>
+            <div class="card">
+                <i class="fas fa-robot"></i>
+                <h3>AI Innovation</h3>
+                <ul>
+                    <li>Prompt Engineering</li>
+                    <li>Generative AI Tools</li>
+                    <li>AI Image & Content Creation</li>
+                    <li>Workflow Planning (OD)</li>
+                </ul>
+            </div>
+            <div class="card">
+                <i class="fas fa-code"></i>
+                <h3>Software Skills</h3>
+                <ul>
+                    <li>Excel (VLOOKUP, Pivot)</li>
+                    <li>Canva & Presentation</li>
+                    <li>Google Workspace</li>
+                    <li>Basic SAP Knowledge</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2><i class="fas fa-award"></i> My Experiences</h2>
+        <div class="exp-box">
+            <h3 style="color: var(--deep-blue);">PIM Ambassador & Model</h3>
+            <p>ทำงานจิตอาสา งานต้อนรับแขกผู้มาเยือนสถาบัน นางแบบถ่ายชุดยูนิฟอร์ม และงานลงนาม MOU กับพันธมิตรในเครือ CP ALL</p>
+        </div>
+        <div class="exp-box">
+            <h3 style="color: var(--deep-blue);">Audit Data Summary Project</h3>
+            <p>สรุปข้อมูล Audit ประจำเดือนและวิเคราะห์ผลต่างข้อมูลแต่ละแผนก ช่วยเพิ่มความรวดเร็วในการตรวจสอบผ่านรายงานกราฟ</p>
+        </div>
+        <div class="exp-box">
+            <h3 style="color: var(--deep-blue);">Cheerleader</h3>
+            <p>เชียร์หลีดเดอร์ประจำคณะในงานกีฬาสี ฝึกฝนทักษะการสื่อสารและความสามัคคีในทีม</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2><i class="fas fa-paper-plane"></i> Contact Me</h2>
+        <div class="contact-grid">
+            <a href="mailto:your-email@example.com" class="contact-btn"><i class="fas fa-envelope"></i> Email</a>
+            <a href="#" class="contact-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="#" class="contact-btn"><i class="fas fa-map-marker-alt"></i> Bangkok / Nonthaburi</a>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>Created with ❤ by Nirapa Srilert (Wawa) & AI</p>
+</footer>
+
+</body>
+</html>
